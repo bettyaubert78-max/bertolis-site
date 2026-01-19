@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BERTOLIS</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #F5F7FA;
+    color: #243B53;
+    line-height: 1.6;
+}
+
+header {
+    background: #FFFFFF;
+    border-bottom: 3px solid #C9A24D;
+    padding: 15px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header img {
+    height: 60px;
+}
+
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #243B53;
+    font-weight: 600;
+}
+
+nav a:hover {
+    color: #C9A24D;
+}
+
+.section {
+    padding: 80px 20px;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+.card {
+    background: #FFFFFF;
+    padding: 30px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.button {
+    display: inline-block;
+    background: #C9A24D;
+    color: white;
+    padding: 12px 22px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.button:hover {
+    background: #b08b3e;
+}
+
+.pack {
+    margin-bottom: 20px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+footer {
+    background: #243B53;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+    }
+    nav {
+        margin-top: 10px;
+    }
+    nav a {
+        margin: 10px;
+        display: inline-block;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <img src="logo.png" alt="BERTOLIS">
+    <nav>
+        <a href="#presentation">Présentation</a>
+        <a href="#creation">Création</a>
+        <a href="#suivi">Suivi</a>
+        <a href="#formation">Formation</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<!-- PRESENTATION -->
+<section id="presentation" class="section">
+<div class="container">
+<h1>Présentation</h1>
+
+<div class="card">
+<p><strong>Betty AUBERT – Fondatrice de BERTOLIS</strong></p>
+
+<p>
+Directrice Administrative et Financière depuis plus de 15 ans, j’accompagne
+les créateurs d’entreprise et dirigeants de TPE dès la création de leur activité,
+puis dans le suivi administratif et organisationnel au quotidien.
+</p>
+
+<p>
+Mon parcours m’a permis de gérer l’ensemble des fonctions supports :
+administration des ventes (ADV), contrôle de gestion, comptabilité,
+logistique et informatique.
+</p>
+
+<p>
+J’ai également conduit de nombreux projets de mise en place d’ERP
+(comptabilité, ADV, EDI, workflows), avec une approche pragmatique et
+orientée résultats.
+</p>
+
+<p>
+Avec BERTOLIS, je propose un accompagnement structuré, fiable et
+personnalisé, permettant aux dirigeants de se concentrer sur le
+développement de leur activité, en toute sérénité.
+</p>
+</div>
+</div>
+</section>
+
+<!-- CREATION -->
+<section id="creation" class="section">
+<div class="container">
+<h1>Création d’entreprise</h1>
+
+<div class="card">
+<ul>
+<li>Accompagnement administratif</li>
+<li>Choix du statut juridique</li>
+<li>Élaboration du business plan</li>
+<li>Formalités de création</li>
+</ul>
+<br>
+<a href="#contact" class="button">Demander un accompagnement</a>
+</div>
+</div>
+</section>
+
+<!-- SUIVI -->
+<section id="suivi" class="section">
+<div class="container">
+<h1>Suivi administratif</h1>
+
+<div class="card pack">
+<h3>Pack Essentiel</h3>
+<p>Gestion administrative – Organisation & suivi</p>
+</div>
+
+<div class="card pack">
+<h3>Pack Confort</h3>
+<p>Gestion administrative – Déclarations – Support mensuel</p>
+</div>
+
+<div class="card pack">
+<h3>Pack Sérénité</h3>
+<p>Accompagnement complet, personnalisé et continu</p>
+</div>
+</div>
+</section>
+
+<!-- FORMATION -->
+<section id="formation" class="section">
+<div class="container">
+<h1>Formations</h1>
+
+<div class="card">
+<h3>Excel</h3>
+<p><strong>Niveau :</strong> Débutant / Intermédiaire / Avancé</p>
+<p><strong>Durée :</strong> Adaptable selon le besoin</p>
+<a href="#contact" class="button">S'inscrire / Demander info</a>
+</div>
+
+<div class="card">
+<h3>Power BI</h3>
+<p><strong>Niveau :</strong> Initiation</p>
+<p><strong>Durée :</strong> Formation pratique</p>
+<a href="#contact" class="button">S'inscrire / Demander info</a>
+</div>
+
+<div class="card">
+<h3>Comptabilité</h3>
+<p><strong>Public :</strong> Entrepreneurs</p>
+<p><strong>Durée :</strong> Formation orientée pratique</p>
+<a href="#contact" class="button">S'inscrire / Demander info</a>
+</div>
+</div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section">
+<div class="container">
+<h1>Contact</h1>
+
+<div class="card">
+<p><strong>Téléphone :</strong> 06 XX XX XX XX</p>
+<p><strong>Email :</strong> contact@bertolis.fr</p>
+</div>
+
+<div class="card">
+<form>
+<input type="text" placeholder="Nom" required>
+<input type="email" placeholder="Email" required>
+<textarea placeholder="Message" rows="5" required></textarea>
+<button class="button" type="submit">Envoyer</button>
+</form>
+</div>
+</div>
+</section>
+
+<footer>
+© 2026 – BERTOLIS
+</footer>
+
+</body>
+</html>
